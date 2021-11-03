@@ -7,8 +7,9 @@ package dm
 
 import (
 	"bytes"
-	"dm/util"
 	"time"
+
+	"github.com/liwei1dao/dm/util"
 )
 
 /**

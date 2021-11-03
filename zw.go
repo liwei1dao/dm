@@ -8,10 +8,11 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/util"
 	"io"
 	"strings"
 	"time"
+
+	"github.com/liwei1dao/dm/util"
 )
 
 const (

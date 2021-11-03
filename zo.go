@@ -5,11 +5,12 @@
 package dm
 
 import (
-	"dm/util"
 	"os"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/liwei1dao/dm/util"
 )
 
 const (
