@@ -8,14 +8,15 @@ import (
 	"context"
 	"database/sql"
 	"database/sql/driver"
-	"dm/i18n"
 	"sync"
+
+	"github.com/liwei1dao/dm/i18n"
 )
 
 // 发版标记
-var version 	= "8.1.1.144"
-var build_date 	= "2020.11.07"
-var svn			= "4365"
+var version = "8.1.1.144"
+var build_date = "2020.11.07"
+var svn = "4365"
 
 var globalDmDriver = newDmDriver()
 

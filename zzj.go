@@ -6,9 +6,10 @@ package dm
 
 import (
 	"bytes"
-	"dm/parser"
 	"strconv"
 	"strings"
+
+	"github.com/liwei1dao/dm/parser"
 
 	"github.com/liwei1dao/dm/util"
 )
